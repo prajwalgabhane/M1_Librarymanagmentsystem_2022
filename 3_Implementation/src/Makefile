@@ -2,7 +2,7 @@
 #<TAB>command
 
 Build:
-	gcc add_integers_v2.c test_add_integers.c ../unity/unity.c -I../unity
+	gcc Addbook.c Deletebook.c Searchbook.c issuebook.c viewbook.c ../unity/unity.c -I../unity
 
 Run:
 	./a.out
